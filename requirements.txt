@@ -1,0 +1,10 @@
+# Dependencias del sitio MkDocs (Blackbox Sense documentación).
+# Instalación: pip install -r requirements.txt
+#
+# click<8.3: Click 8.3.x rompe la recarga automática de `mkdocs serve` por defecto
+# (el servidor no vigila archivos).
+
+mkdocs>=1.6,<2
+mkdocs-material>=9.5,<10
+click>=8.1,<8.3
+watchdog>=4,<5
